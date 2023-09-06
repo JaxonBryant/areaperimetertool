@@ -3,7 +3,6 @@ def integer_checker(question, CAP):
   #set up loop to force valid input
   while True:
     #formatting
-    print("")
     user_input = input(question).strip()
     # prevent blank inputs
     if user_input == "":
