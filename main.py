@@ -1,4 +1,7 @@
 from integer_checker import integer_checker
+from multi_choice import multi_choice
 
-number = integer_checker("Input a number: ", 100)
-print(number)
+option = multi_choice(6)
+
+#number = integer_checker("Input a number: ", 100)
+#print(number)
