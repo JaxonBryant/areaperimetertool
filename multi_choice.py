@@ -1,22 +1,24 @@
 
 from integer_checker import integer_checker
+from math_formulas import find_circle, find_parellelogram, find_rectangle, find_square, find_trapezoid, find_triangle
 
 def multi_choice(option_amount):
   # Loop for testing
   while True:
-    choice = integer_checker("Choose an option, 1-{}: ".format(option_amount), option_amount)
+    choice = integer_checker("Choose an option: \n 1. Square \n 2. Rectangle \n 3. Parellelogram \n 4. Circle \n 5. Triangle \n 6. Trapezoid \n", 6)
     # Branches
     if choice == 1:
-      print("One")
+      find_square()
     if choice == 2:
-      print("Two")
+      find_rectangle()
     if choice == 3:
-      print("Three")
+      find_parellelogram()
     if choice == 4:
-      print("Four")
+      find_circle()
     if choice == 5:
-      print("Five")
+      find_triangle()
     if choice == 6:
-      print("Six")
+      find_trapezoid()
 
+    print("")
     continue

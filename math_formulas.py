@@ -5,7 +5,7 @@ CAP = 100
 PI = 3.14159265359
 
 def find_square():
-  print("Square")
+  print("SQUARE")
   base = integer_checker("Enter the length: ", CAP)
   perimeter = base * 4
   area = base * 2
@@ -13,7 +13,7 @@ def find_square():
   return
 
 def find_rectangle():
-  print("Rectangle")
+  print("RECTANGLE")
   base = integer_checker("Enter the length: ", CAP)
   a = integer_checker("Enter the width: ", CAP)
   perimeter = base + base + a + a
@@ -22,7 +22,7 @@ def find_rectangle():
   return
 
 def find_parellelogram():
-  print("Parellelogram")
+  print("PARELLELOGRAM")
   base = integer_checker("Enter the base: ", CAP)
   a = integer_checker("Enter the height: ", CAP)
   perimeter = base + base + a + a
@@ -31,7 +31,7 @@ def find_parellelogram():
   return
 
 def find_circle():
-  print("Circle")
+  print("CIRCLE")
   base = integer_checker("Enter the radius: ", CAP)
   perimeter = 2 * PI * base
   area = PI * (base * base)
@@ -39,7 +39,7 @@ def find_circle():
   return
 
 def find_triangle():
-  print("Triangle")
+  print("TRIANGLE")
   base = integer_checker("Enter the base: ", CAP)
   a = integer_checker("Enter side A: ", CAP)
   b = integer_checker("Enter side B: ", CAP)
@@ -50,7 +50,7 @@ def find_triangle():
   return
   
 def find_trapezoid():
-  print("Trapezoid")
+  print("TRAPEZOID")
   base = integer_checker("Enter the long base: ", CAP)
   a = integer_checker("Enter the short base: ", CAP)
   b = integer_checker("Enter side A: ", CAP)

@@ -5,18 +5,4 @@ from math_formulas import find_square, find_parellelogram, find_rectangle, find_
 
 #option = multi_choice(6)
 
-#number = integer_checker("Input a number: ", 100)
-#print(number)
-
-
-square = find_square()
-print("")
-rectangle = find_rectangle()
-print("")
-parellelogram = find_parellelogram()
-print("")
-circle = find_circle()
-print("")
-find_triangle = find_triangle()
-print("")
-trapezoid = find_trapezoid()
+number = integer_checker("Enter a number: ", 100)
