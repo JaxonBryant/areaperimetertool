@@ -1,8 +1,10 @@
 from integer_checker import integer_checker
 from multi_choice import multi_choice
-from math_formulas import find_square, find_parellelogram, find_rectangle, find_circle, find_triangle, find_trapezoid
+from math_formulas import find_square, find_parallelogram, find_rectangle, find_circle, find_triangle, find_trapezoid
 
 
-#option = multi_choice(6)
+print("Welcome. This is an area/perimeter calculator. To begin, type in the number of the shape you would like to use in calculation\n")
 
-number = integer_checker("Enter a number: ", 100)
+valid = True
+while True:
+  option = multi_choice(6)

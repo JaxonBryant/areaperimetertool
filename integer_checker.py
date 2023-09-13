@@ -2,9 +2,9 @@
 def integer_checker(question, CAP):
   CAP = float(CAP)
   # loop for testing
-  valid = True  
+  notvalid = True  
   # create loop
-  while valid:
+  while notvalid:
     # force integer/float input
     try:
       user_input = float(input(question))
@@ -15,10 +15,11 @@ def integer_checker(question, CAP):
     if not (0 < user_input < CAP + 1):
       print("Input must be above 0 and below {}".format(CAP))
       continue
-    print("{} is allowed".format(user_input))
-    valid = False
+    notvalid = False
+    print("")
     return user_input
 
+    
 
 
 #def integer_checke(question, CAP):

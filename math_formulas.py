@@ -21,8 +21,8 @@ def find_rectangle():
   print("Area: {}, Perimeter: {}".format(area, perimeter))
   return
 
-def find_parellelogram():
-  print("PARELLELOGRAM")
+def find_parallelogram():
+  print("PARALLELOGRAM")
   base = integer_checker("Enter the base: ", CAP)
   a = integer_checker("Enter the height: ", CAP)
   perimeter = base + base + a + a
